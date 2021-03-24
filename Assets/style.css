@@ -1,0 +1,302 @@
+:root {
+  --iceblue: #92ccce;
+  --charcoal: #30343c;
+  --borderblue: #445876;
+  --background: #eeeff7;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--background);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", arial, sans-serif;
+}
+
+header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 5%;
+  background-color: var(--charcoal);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 7px;
+  background-color: var(--iceblue);
+  color: var(--charcoal);
+  width: 300px;
+  height: fit-content;
+  text-align: right;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-left: 25px;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+
+a {
+  color: var(--iceblue);
+  font-size: 18px;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  background-image: linear-gradient(270deg, var(--iceblue) 0%, var(--iceblue) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: bottom;
+  transition: all 0.25s ease-in;
+  font-size: 1.4rem;
+}
+
+a:hover{
+  background-color: var(--iceblue);
+  color: var(--charcoal);
+}
+
+.backgroundimg {
+  height: 250px;
+  width: 100%;
+  background-image: url("./background-chevron.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 25px;
+  position: static;
+}
+
+.backgroundimg p {
+  font-size: 24px;
+  background-color: var(--iceblue);
+  color: var(--charcoal);
+  width: 175px;
+  position: absolute;
+  top: 275px;
+  right: 300px;
+  padding: 3px;
+}
+
+.content {
+  background-color: var(--background);
+  color: var(--borderblue);
+  display: flex;
+  flex-flow: row wrap;
+
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex 0 0 100%;
+
+}
+
+#c-about{
+ font-size: 48px;
+ text-align: right; 
+ border-right: solid 4px var(--borderblue);
+ min-height: 100px;
+ margin: 25px;
+ font-weight: bolder;
+ padding-right: 10px;
+ flex: 1;
+ width: 300px;
+ 
+}
+
+.c-para{
+  display: flex;
+  flex: 3;
+  margin-right: 25px;
+  margin-top: 32px; 
+  font-size: 16px;
+  text-align: left;
+}
+
+.row2{
+  flex-direction: row;
+  
+}
+
+
+#column-v {
+  font-size: 48px;
+  font-weight: bolder;
+  text-align: right;
+  margin: 25px;
+  padding-right: 20px;
+  border-right: solid 4px var(--borderblue);
+  min-height: 300px;
+  flex: 1;
+}
+
+
+h2{
+  font-size: 28px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+ .project1{
+  border: solid 15px var(--iceblue);
+  flex: 3;
+  height: 100px;
+ }
+ .project1 img{
+object-fit: cover;
+ }
+
+.caption1{
+  background-color: var(--iceblue);
+  color: var(--charcoal);
+  width: fit-content;
+}
+
+.projectsq  {
+
+  border: solid 15px var(--iceblue);
+  flex: 1;
+  object-fit: contain;
+}
+
+
+.caption {
+ background-color: var(--iceblue);
+ color: var(--charcoal);
+ width: fit-content;
+ padding: 10px;
+
+}
+.ftlinks{
+  flex: 3;
+}
+
+.ftlinks ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+/* 
+.content h1 {
+  font-size: 64px;
+  background-color: var(--background);
+  min-height: 300px;
+  width: 25%;
+  color: var(--borderblue);
+  
+  
+}
+
+
+
+.verticalline{
+  display: flex;
+  height: relative;
+  border-left: solid var(--borderblue) 4px;
+
+} */
+
+/* #Aboutme{
+  display: flex;
+}
+#Aboutme p {
+  font-size: 18px;
+  color: var(--borderblue);
+  padding-left: 20px;
+  padding-right: 25px;
+}
+ */
+
+
+
+
+/* .bigCard img{
+width: 100%;
+height: 500px;
+object-fit: cover;
+border: solid var(--iceblue) 15px;
+} */
+
+/* .card-column img {
+  width: 305px;
+  height: 250px;
+  border: solid var(--iceblue) 15px;
+} */
+
+/* .caption1{
+  background-color: var(--iceblue);
+  color: var(--charcoal);
+  position: absolute;
+  margin-top: 375px;
+  padding: 10px;
+
+} */
+
+/* h2{
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+} */
+/* 
+.caption {
+  background-color: var(--iceblue);
+  color: var(--charcoal);
+  position: absolute;
+  z-index: 1000;
+  padding: 10px;
+}
+
+.caption p {
+  font-size: 18px;
+} */
+
+
+/* #ContactMe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#ContactMe ul li {
+  color: var(--borderblue);
+  font-size: 24px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: inline-block;
+  margin-left: 25px;
+} */
+
+@media only screen and (max-width: 768px) {
+    header, .navbar{
+      flex-direction: column;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .navbar{
+      padding: 10px;
+      background-color: purple;
+      margin-top: 25px;
+    }
+  }
