@@ -38,17 +38,7 @@ h1 {
   text-align: right;
 }
 
-.navbar {
-  display: flex;
-  flex-wrap: wrap;
-  list-style-type: none;
-  margin-left: 25px;
-}
 
-.navbar ul li {
-  display: inline-block;
-  margin-left: 25px;
-}
 
 
 a {
@@ -70,14 +60,13 @@ a:hover{
   color: var(--charcoal);
 }
 
-.backgroundimg {
-  height: 250px;
+.hero {
+  height: 450px;
   width: 100%;
-  background-image: url("./background-chevron.jpg");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   margin-bottom: 25px;
-  position: static;
+
 }
 
 .backgroundimg p {
@@ -85,13 +74,16 @@ a:hover{
   background-color: var(--iceblue);
   color: var(--charcoal);
   width: 175px;
-  position: absolute;
-  top: 275px;
-  right: 300px;
+  display: inline;
+  position: relative;
+  top: 175px;
+  right: 80px;
   padding: 3px;
+  float: right;
 }
 
-.content {
+main {
+  margin-top: 25px;
   background-color: var(--background);
   color: var(--borderblue);
   display: flex;
@@ -108,7 +100,7 @@ a:hover{
 .column {
   display: flex;
   flex-direction: column;
-  flex 0 0 100%;
+  flex: 0 0 100%;
 
 }
 
@@ -157,36 +149,7 @@ h2{
   font-weight: bolder;
   margin-bottom: 10px;
 }
- .project1{
-  border: solid 15px var(--iceblue);
-  flex: 3;
-  height: 100px;
- }
- .project1 img{
-object-fit: cover;
- }
 
-.caption1{
-  background-color: var(--iceblue);
-  color: var(--charcoal);
-  width: fit-content;
-}
-
-.projectsq  {
-
-  border: solid 15px var(--iceblue);
-  flex: 1;
-  object-fit: contain;
-}
-
-
-.caption {
- background-color: var(--iceblue);
- color: var(--charcoal);
- width: fit-content;
- padding: 10px;
-
-}
 .ftlinks{
   flex: 3;
 }
