@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./Assets/reset.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css"/>
-    <link rel="stylesheet" href="./Assets/style.css" />
+    <!-- <link rel="stylesheet" href="./Assets/style.css" /> -->
     <title>Brandi's Portfolio Gallery</title>
   </head>
 
@@ -13,10 +13,10 @@
     <header>
       <h1>Brandi Murray</h1>
       <nav>
-        <a class="link" href="#c-about">About Me</a>
-        <a class="link" href="#column-v">Work</a>
-        <a class="link" href="#footer">Contact Me</a>
-        <a class="link" href="#footer">Resume</a>
+        <a class="link" href="#about">About Me</a>
+        <a class="link" href="#work">Work</a>
+        <a class="link" href="#contact">Contact Me</a>
+        <a class="link" href="#contact">Resume</a>
       </nav>
     </header>
 
@@ -27,158 +27,111 @@
         class="uk-animation-reverse uk-transform-origin-top-right"
         uk-scrollspy="cls: uk-animation-kenburns; repeat: true"
       />
-      <h2>2021 Portfolio</h2>
+      
     </div>
 
     <!-- box containing all content -->
     <main>
-      <!-- the start of row 1 -->
-      <div class="row">
-        <!-- column1 about me -->
-        <div class="column">
-          <div id="c-about">
-            About <br />
-            Me
-          </div>
+      <section class="uk-section uk-section-muted">
+        <div class="content-header">
+            <h3>About<br>Me</h3>
         </div>
 
-        <!-- column 2 paragraph -->
-        <div class="column">
-          <div class="c-para">
-            Hello I am a 26 year old programmer student who's eager to learn. I
-            have two associate degrees and am really looking forward to starting
-            my new career as a web developer. Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Esse aliquid laboriosam minima ex
-            praesentium recusandae reprehenderit unde sit tempore atque aut
-            commodi quae expedita corrupti, dignissimos architecto. Eius,
-            maiores ad?
-          </div>
+        <div class="content" id="about">
+            
+            
+            <p><img src="./Assets/IMG_4661.JPG" style="width: 300px; height: 300px; border: 5px solid #88c5c7; float: right; margin-left: 10px;">Hello! My name is Brandi Murray and I am a 26 year old aspiring developer! I started coding as a hobby in the days of Myspace and Tumblr, but recently decided to make my passion my career. I am currently enrolled in the UCF Full Stack Coding Bootcamp and am well versed in several different coding languages such as HTML, CSS, Javascript, Node.js, Moment.js and am eager to learn more! I also dabble in frameworks such as UIKit and Bootstrap<br><br>
+            When I'm not coding I love to bake, spend time with my two dachshunds, crochet, play the ukelele, read, play video games and more. </p>
         </div>
-      </div>
-      <!-- end of row1 -->
+        
+    </section>
 
-      <!-- start row2 -->
-      <div class="row2">
-        <!-- column 1 work -->
-        <div class="column">
-          <div id="column-v">Work</div>
+   
+    <section class="uk-section uk-section-muted uk-preserve-color">
+        <div class="content-header">
+            <h3>Work</h3>
         </div>
 
-        <!-- column 2 big picture  -->
-        <div class="column">
-          <div class="project1" alt="Surf Report">
-            <!-- insert pic as background for this div -->
-
-            <!-- <span class="tooltiptext">Surf Report</span> -->
-
-            <div class="caption1">
-              <h2>Surf Report</h2>
-              MERN Stack
+        <div class="content" id="work">
+         
+    
+          <div class="projects" id="larger">
+                <div class="project img1" id="first"></div>
+                <div class="project-info" id="one">
+                    <h5>Astroscope</h5>
+                    <p>HTML-CSS-Javascript</p>
+                </div>
             </div>
-            <!-- the small box for caption -->
-          </div>
-        </div>
-      </div>
-      <!-- end of row2 -->
-
-      <!-- start of row3 -->
-      <div class="row3">
-        <!-- column 1-empty box border right -->
-        <div class="column">
-          <div id="column-v"></div>
-        </div>
-
-        <!-- column 2 first image of 4 -->
-        <div class="column">
-          <div class="projectsq" alt="LED Wall">
-            <!-- <span class="tooltiptext">LED Wall</span> -->
-
-            <!-- the small box for caption -->
-            <div class="caption">
-              <h2>LED Wall</h2>
-              Node/IoT
+         
+            
+            <div class="projects">
+                <div class="project img2" ></div>
+                <div class="project-info">
+                    <h5>Day Planner</h5>
+                    <p>Javascript/Moment</p>
+                </div>
             </div>
-          </div>
-        </div>
-        <!-- start of column 3 -2nd image -->
-        <div class="column">
-          <div class="projectsq" alt="Calculator">
-            <!-- insert pic in background -->
 
-            <!-- <span class="tooltiptext">Calculator</span> -->
-
-            <div class="caption">
-              <h2>Calculator</h2>
-              React/JavaScript/Css
+            <div class="projects">
+                <div class="project img3"></div>
+                <div class="project-info">
+                    <h5>Weather Dashboard</h5>
+                    <p>CSS/Javascript/API's</p>
+                </div>
             </div>
-            <!-- caption box -->
-          </div>
-        </div>
-      </div>
-      <!-- end of row3 -->
 
-      <!-- start of row4 -->
-      <div class="row4">
-        <!-- column 1-empty box border right -->
-        <div class="column">
-          <div id="column-v"></div>
-        </div>
-
-        <!-- column 4.2 3rd image in square -->
-        <div class="column">
-          <div class="projectsq">
-            <!-- insert pic in background -->
-
-            <!-- <span class="tooltiptext">Pastel Puzzle</span> -->
-
-            <div class="caption">
-              <h2>Pastel Puzzles</h2>
-              MERN Stack
+            <div class="projects">
+                <div class="project img4"></div>
+                <div class="project-info">
+                    <h5>Coding Quiz!</h5>
+                    <p>Javascript/CSS/HTML</p>
+                </div>
             </div>
-            <!-- caption box -->
-          </div>
-        </div>
-        <!-- column 4.3 LAST img -->
-        <div class="column">
-          <div class="projectsq">
-            <!-- <span class="tooltiptext">Run Buddy</span> -->
 
-            <div class="caption">
-              <h2>Run Buddy</h2>
-              HTML/CSS
+            <div class="projects">
+                <div class="project img5"></div>
+                <div class="project-info">
+                    <h5>Random Password Generator</h5>
+                    <p>Javascript</p>
+                </div>
             </div>
-            <!--caption box  -->
-          </div>
         </div>
-      </div>
-      <!-- end of row 4  -->
+    </section>
 
-      <!-- start of Row5 last row -->
-      <div id="footer">
-        <!-- column 5.1 Contact Me -->
-        <div class="column">
-          <div id="c-about">
-            Contact <br />
-            Me
+  
+    <section class ="uk-section uk-section-secondary">
+        
+
+        <div class="content" id="contact-me">
+            <a 
+                href="mailto:pritchettb14@gmail.com"
+                class="uk-icon-button uk-margin-small-right" 
+                uk-icon="receiver">
+           </a>
+            <a 
+                href="mailto:pritchettb14@gmail.com" class="uk-icon-button uk-margin-small-right" uk-icon="mail">
+            </a>
+            <a 
+                href="https://github.com/Murrmaid4" 
+                target ="_blank" 
+                class="uk-icon-button uk-margin-small-right" 
+                uk-icon="github">
+            </a>
+            <a 
+                href="https://www.linkedin.com/in/brandi-murray-04666220b" 
+                target ="_blank" 
+                class="uk-icon-button uk-margin-small-right" 
+                uk-icon="linkedin">
+            </a>
+            <a 
+            href="https://www.linkedin.com/in/brandi-murray-04666220b" 
+            target ="_blank" 
+            class="uk-icon-button uk-margin-small-right" 
+            uk-icon="file-edit">
+            </a>
           </div>
-        </div>
-
-        <!-- start of column 2 with links -->
-        <div class="column">
-          <div class="ftlinks">
-            <ul>
-              <li>contact</li>
-              <li>links</li>
-              <li>will go</li>
-              <li>here</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!-- end of links, column and row -->
-
-      <!-- end of content div -->
-    </main>
+        </section>
+</main>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
   </body>
