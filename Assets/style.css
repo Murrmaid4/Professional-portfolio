@@ -2,20 +2,21 @@
   --iceblue: #92ccce;
   --charcoal: #30343c;
   --borderblue: #445876;
-  --background: #8ADCDB;
+  --background: #222222;
 }
 
 
 body {
+  
   color:#3c4f6a;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding:0;
   margin:0;
-  background-color: var(--background);
+  
   
 }
 p {
-  color:#3c4f6a;
+  color: #DCBBF7;
   font-size: 20px;
   line-height: 20px;
   text-align:justify;
@@ -37,7 +38,7 @@ header h1 {
   font-size: 50px;
   padding: 0px 0px 15px 75px;
   margin-top:25px;
-  background-color: var(--iceblue);
+  background-color: #DCBBF7;
   color: var(--charcoal);
   width: 400px;
   height:50px;
@@ -54,17 +55,17 @@ header nav{
 
 .link {
   padding:5px 10px 5px 10px;
-  border-bottom: 3px solid #88c5c7;
+  border-bottom: 3px solid #DCBBF7;
   margin-right:10px;
   text-decoration: none;
-  color:#88c5c7;
+  color:#DCBBF7;
   font-size:20px;
   height:25px;
   margin-top:30px;
 }
 
 .link:hover {
-  background-color:#88c5c7;
+  background-color:#DCBBF7;
   color:#2b2e35;  
   transition: 0.25s ease-in;
 }
@@ -79,7 +80,6 @@ header nav{
 }
 
 
-
 main {
   margin: 75px;
 }
@@ -91,7 +91,7 @@ section {
 
 }
 
-/* Main container headers and corresponding content sections styling begins here. */
+
 .content-header h3 {
   position:relative;
   bottom:50px;
@@ -106,7 +106,7 @@ section {
 .content  {
   position:relative;
   width:100%;
-  border-left: 4px solid #3c4f6a; 
+ 
   padding-left:50px;
   display:flex;
   flex-direction: row;
@@ -178,12 +178,12 @@ section {
   background-image:url(./pw-gen-ss.jpg);
 }
 
-/* Project title and description overlay styling begins here. */
+
 .project-info {
   display:inline-block;
   position:absolute;
   top:80px;
-  background-color:#88c5c7;
+  background-color: #220E1B;
   padding:10px 10px 0px 5px;
   margin:0px;
 }
@@ -191,6 +191,7 @@ section {
   font-size: 20px;
   line-height: 18px;
   margin:0px;
+  color: white;
 }
 
 .project-info p {
@@ -201,35 +202,24 @@ section {
 
 
 
-/* Contact Me header and corresponding section styling begins here. */
 #contact-me {
-  position:relative;
+  
   width:100%;
   height:100%;
-  border-left: 4px solid #3c4f6a; 
-  padding-left:50px;
   display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
-  margin:0;
-}
-
-.content h4 {
-  color: #2b2e35;
-  font-size:24px;
-  line-height:25px;
-  border-bottom: 4px solid #3c4f6a;
-  padding: 0px 5px 15px 5px;
+  margin: 0;
 }
 
 
-/* Responsive styling begins here. */
+
+
+
 @media screen and (max-width: 795px){
 
   section {
       display:block;
-      width:100%;;
+      width:100%;
   }
 
   .content-header {
@@ -246,7 +236,7 @@ section {
   .content {
       width:100%;
       border-left: 0px; 
-      border-top: 4px solid #3c4f6a; 
+      
       display:flex;
       flex-direction: row;
       flex-wrap: wrap;
@@ -266,7 +256,7 @@ section {
   #contact-me {
       position:relative;
       width:100%;
-      border-left: 0px solid #3c4f6a; 
+      
       padding-left:0px;
       display:block;
       margin:0px;
@@ -315,7 +305,7 @@ section {
   
   header h1 {
       color:#2b2e35;
-      background-color:#88c5c7;
+      background-color:#DCBBF7;
       font-size:50px;
       text-align:center;
       padding:0px 10px 10px 10px;
@@ -335,7 +325,7 @@ section {
   .link {
       padding:5px 10px 5px 10px;
       text-decoration: none;
-      color:#88c5c7;
+      color:#DCBBF7;
       font-size:20px;
       height:20px;
       margin-top:0px;
@@ -347,11 +337,5 @@ section {
       text-align:center;
   }
 
-  .hero h2 {
-      color:#2b2e35;
-      background-color:#88c5c7;
-      font-size:30px;
-      padding:5px 10px 5px 10px;
-      top:175px;
-  }
+ 
 }

@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./Assets/reset.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css"/>
-    <!-- <link rel="stylesheet" href="./Assets/style.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css"
+    />
+    <link rel="stylesheet" href="./Assets/style.css" />
     <title>Brandi's Portfolio Gallery</title>
   </head>
 
@@ -13,10 +16,10 @@
     <header>
       <h1>Brandi Murray</h1>
       <nav>
-        <a class="link" href="#about">About Me</a>
-        <a class="link" href="#work">Work</a>
-        <a class="link" href="#contact">Contact Me</a>
-        <a class="link" href="#contact">Resume</a>
+        <a class="link" href="#about">Who, Me?</a>
+        <a class="link" href="#work">Past Work</a>
+        <a class="link" href="#contact-me">Contact Me</a>
+        <a class="link" href="#contact-me">Resume</a>
       </nav>
     </header>
 
@@ -27,113 +30,124 @@
         class="uk-animation-reverse uk-transform-origin-top-right"
         uk-scrollspy="cls: uk-animation-kenburns; repeat: true"
       />
-      
     </div>
 
-    <!-- box containing all content -->
+    
     <main>
-      <section class="uk-section uk-section-muted">
+      <section>
         <div class="content-header">
-            <h3>About<br>Me</h3>
+          <h3>About<br />Me</h3>
         </div>
 
         <div class="content" id="about">
-            
-            
-            <p><img src="./Assets/IMG_4661.JPG" style="width: 300px; height: 300px; border: 5px solid #88c5c7; float: right; margin-left: 10px;">Hello! My name is Brandi Murray and I am a 26 year old aspiring developer! I started coding as a hobby in the days of Myspace and Tumblr, but recently decided to make my passion my career. I am currently enrolled in the UCF Full Stack Coding Bootcamp and am well versed in several different coding languages such as HTML, CSS, Javascript, Node.js, Moment.js and am eager to learn more! I also dabble in frameworks such as UIKit and Bootstrap<br><br>
-            When I'm not coding I love to bake, spend time with my two dachshunds, crochet, play the ukelele, read, play video games and more. </p>
+          <p>
+            <img
+              src="./Assets/IMG_4661.JPG"
+              style="
+                width: 400px;
+                height: 475px;
+                border: 6px dotted #DCBBF7;
+                float: right;
+                margin-left: 10px;
+              "
+            />Hello! My name is Brandi Murray and I am a 26 year old aspiring
+            developer! I started coding as a hobby in the days of Myspace and
+            Tumblr, but recently decided to make my passion my career. I am
+            currently enrolled in the UCF Full Stack Coding Bootcamp and am well
+            versed in several different coding languages such as HTML, CSS,
+            Javascript, Node.js, Moment.js and am eager to learn more! I also
+            dabble in frameworks such as UIKit and Bootstrap<br /><br />
+            When I'm not coding I love to bake, spend time with my two
+            dachshunds, crochet, play the ukelele, read, play video games and
+            more.
+          </p>
         </div>
-        
-    </section>
+      </section>
 
-   
-    <section class="uk-section uk-section-muted uk-preserve-color">
+      <section >
+        
         <div class="content-header">
-            <h3>Work</h3>
+          <h3>Work</h3>
         </div>
 
         <div class="content" id="work">
-         
-    
-          <div class="projects" id="larger">
-                <div class="project img1" id="first"></div>
-                <div class="project-info" id="one">
-                    <h5>Astroscope</h5>
-                    <p>HTML-CSS-Javascript</p>
-                </div>
+          <div onclick="location.href='https:mascarelloa.github.io/astroscope/';" class="projects" id="larger">
+            <div class="project img1" id="first"></div>
+            <div class="project-info" id="one">
+              <h5>Astroscope</h5>
+              <p>HTML-CSS-Javascript</p>
             </div>
-         
-            
-            <div class="projects">
-                <div class="project img2" ></div>
-                <div class="project-info">
-                    <h5>Day Planner</h5>
-                    <p>Javascript/Moment</p>
-                </div>
-            </div>
-
-            <div class="projects">
-                <div class="project img3"></div>
-                <div class="project-info">
-                    <h5>Weather Dashboard</h5>
-                    <p>CSS/Javascript/API's</p>
-                </div>
-            </div>
-
-            <div class="projects">
-                <div class="project img4"></div>
-                <div class="project-info">
-                    <h5>Coding Quiz!</h5>
-                    <p>Javascript/CSS/HTML</p>
-                </div>
-            </div>
-
-            <div class="projects">
-                <div class="project img5"></div>
-                <div class="project-info">
-                    <h5>Random Password Generator</h5>
-                    <p>Javascript</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-  
-    <section class ="uk-section uk-section-secondary">
-        
-
-        <div class="content" id="contact-me">
-            <a 
-                href="mailto:pritchettb14@gmail.com"
-                class="uk-icon-button uk-margin-small-right" 
-                uk-icon="receiver">
-           </a>
-            <a 
-                href="mailto:pritchettb14@gmail.com" class="uk-icon-button uk-margin-small-right" uk-icon="mail">
-            </a>
-            <a 
-                href="https://github.com/Murrmaid4" 
-                target ="_blank" 
-                class="uk-icon-button uk-margin-small-right" 
-                uk-icon="github">
-            </a>
-            <a 
-                href="https://www.linkedin.com/in/brandi-murray-04666220b" 
-                target ="_blank" 
-                class="uk-icon-button uk-margin-small-right" 
-                uk-icon="linkedin">
-            </a>
-            <a 
-            href="https://www.linkedin.com/in/brandi-murray-04666220b" 
-            target ="_blank" 
-            class="uk-icon-button uk-margin-small-right" 
-            uk-icon="file-edit">
-            </a>
           </div>
-        </section>
-</main>
+
+          <div onclick="location.href='https:murrmaid4.github.io/Work-Day-Scheduler/';"class="projects">
+            <div class="project img2"></div>
+            <div class="project-info">
+              <h5>Day Planner</h5>
+              <p>Javascript/Moment</p>
+            </div>
+          </div>
+
+          <div onclick="location.href=' https:murrmaid4.github.io/Weather-Dash-App/';" class="projects">
+            <div class="project img3"></div>
+            <div class="project-info">
+              <h5>Weather Dashboard</h5>
+              <p>CSS/Javascript/API's</p>
+            </div>
+          </div>
+
+          <div onclick="location.href='https:murrmaid4.github.io/Js-coding-quiz/';" class="projects">
+            <div class="project img4"></div>
+            <div class="project-info">
+              <h5>Coding Quiz!</h5>
+              <p>Javascript/CSS/HTML</p>
+            </div>
+          </div>
+
+          <div onclick="location.href='https:murrmaid4.github.io/JS-Random-Password-Generator/';" class="projects">
+            <div class="project img5"></div>
+            <div class="project-info">
+              <h5>Random Password Generator</h5>
+              <p>Javascript</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section >
+        
+        <div class="content" id="contact-me">
+          <a
+            href="mailto:pritchettb14@gmail.com"
+            class="uk-icon-button uk-margin-small-right"
+            uk-icon="mail"
+          >
+          </a>
+          <a
+            href="https://github.com/Murrmaid4"
+            target="_blank"
+            class="uk-icon-button uk-margin-small-right"
+            uk-icon="github"
+          >
+          </a>
+          <a
+            href="https://www.linkedin.com/in/brandi-murray-04666220b"
+            target="_blank"
+            class="uk-icon-button uk-margin-small-right"
+            uk-icon="linkedin"
+          >
+          </a>
+          <a
+            href="https://www.linkedin.com/in/brandi-murray-04666220b"
+            target="_blank"
+            class="uk-icon-button uk-margin-small-right"
+            uk-icon="file-edit"
+          >
+          </a>
+        </div>
+      </section>
+    </main>
+   
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
   </body>
-  
 </html>
